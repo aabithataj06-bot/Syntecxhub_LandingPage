@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SyntecxHub AI Academy — Learn AI, Design & Development</title>
+  <meta name="description" content="Master AI, UI/UX Design and Full Stack Development through real-world projects and mentorship. Join 12,000+ learners at SyntecxHub AI Academy." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="lp">
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="nav">
+    <div class="nav-logo">
+      <div class="logo-mark">
+        <i class="ti ti-brain" style="font-size:15px;color:#CECBF6" aria-hidden="true"></i>
+      </div>
+      SyntecxHub AI Academy
+    </div>
+
+    <div class="nav-links">
+      <a href="#features" class="nav-link active">Courses</a>
+      <a href="#how"      class="nav-link">How it works</a>
+      <a href="#pricing"  class="nav-link">Pricing</a>
+      <a href="#reviews"  class="nav-link">Reviews</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn-ghost-nav">Log in</button>
+      <button class="btn-primary-nav" onclick="openModal()">
+        Enroll free <i class="ti ti-arrow-right" style="font-size:12px" aria-hidden="true"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      New — Generative AI &amp; LLM course now live
+    </div>
+
+    <h1 class="hero-h1">Learn AI Skills &amp; <span>Build Your Future</span></h1>
+    <p class="hero-sub">Master AI, UI/UX Design and Development through real-world projects and mentorship.</p>
+
+    <div class="hero-ctas">
+      <button class="btn-hero" onclick="openModal()">
+        <i class="ti ti-rocket" style="font-size:15px" aria-hidden="true"></i>
+        Start learning free
+      </button>
+      <button class="btn-hero-sec">
+        <i class="ti ti-player-play" style="font-size:14px" aria-hidden="true"></i>
+        Watch demo ↗
+      </button>
+    </div>
+
+    <div class="hero-social">
+      <div class="avatar-stack" aria-hidden="true">
+        <div class="av" style="background:#534AB7;color:#CECBF6">AK</div>
+        <div class="av" style="background:#1D9E75;color:#E1F5EE">SR</div>
+        <div class="av" style="background:#D85A30;color:#FAECE7">MT</div>
+        <div class="av" style="background:#D4537E;color:#FBEAF0">JL</div>
+      </div>
+      <span>Trusted by 12,000+ learners worldwide</span>
+    </div>
+
+    <div class="hero-stats" role="list">
+      <div class="stat-box" role="listitem">
+        <div class="stat-num">500+</div>
+        <div class="stat-lbl">Hours of content</div>
+      </div>
+      <div class="stat-box" style="border-left:1px solid #534AB7;border-right:1px solid #534AB7" role="listitem">
+        <div class="stat-num">98%</div>
+        <div class="stat-lbl">Learner satisfaction</div>
+      </div>
+      <div class="stat-box" role="listitem">
+        <div class="stat-num">3x</div>
+        <div class="stat-lbl">Faster job placement</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LOGOS ========== -->
+  <div class="logos">
+    <div class="logos-lbl">Learners placed at</div>
+    <div class="logos-row">
+      <div class="logo-pill" style="background:#CECBF6;color:#26215C">Google</div>
+      <div class="logo-pill" style="background:#9FE1CB;color:#04342C">Infosys</div>
+      <div class="logo-pill" style="background:#F5C4B3;color:#4A1B0C">TCS</div>
+      <div class="logo-pill" style="background:#F4C0D1;color:#4B1528">Zoho</div>
+      <div class="logo-pill" style="background:#C0DD97;color:#173404">Wipro</div>
+    </div>
+  </div>
+
+  <!-- ========== FEATURES ========== -->
+  <section class="features" id="features">
+    <div class="sec-tag" style="background:#9FE1CB;color:#04342C">
+      <i class="ti ti-sparkles" style="font-size:12px" aria-hidden="true"></i> What you'll learn
+    </div>
+    <h2 class="sec-h" style="color:#085041">Skills that get you hired</h2>
+    <p class="sec-sub" style="color:#0F6E56">Hands-on courses in AI, design, and development — built for the real world.</p>
+
+    <div class="feat-grid">
+      <div class="feat-card" style="background:#EEEDFE">
+        <div class="feat-icon-wrap" style="background:#CECBF6">
+          <i class="ti ti-brain" style="font-size:18px;color:#26215C" aria-hidden="true"></i>
+        </div>
+        <div class="feat-title" style="color:#26215C">Generative AI &amp; LLMs</div>
+        <div class="feat-desc" style="color:#534AB7">Prompt engineering, fine-tuning, RAG pipelines and building AI-powered apps from scratch.</div>
+      </div>
+
+      <div class="feat-card" style="background:#E1F5EE">
+        <div class="feat-icon-wrap" style="background:#5DCAA5">
+          <i class="ti ti-layout-dashboard" style="font-size:18px;color:#04342C" aria-hidden="true"></i>
+        </div>
+        <div class="feat-title" style="color:#04342C">UI/UX Design</div>
+        <div class="feat-desc" style="color:#0F6E56">Figma, design systems, prototyping, user research and handoff — industry workflow included.</div>
+      </div>
+
+      <div class="feat-card" style="background:#FAEEDA">
+        <div class="feat-icon-wrap" style="background:#EF9F27">
+          <i class="ti ti-code" style="font-size:18px;color:#412402" aria-hidden="true"></i>
+        </div>
+        <div class="feat-title" style="color:#412402">Full Stack Dev</div>
+        <div class="feat-desc" style="color:#854F0B">React, Node.js, Python, REST APIs and cloud deployment with real capstone projects.</div>
+      </div>
+
+      <div class="feat-card" style="background:#FBEAF0">
+        <div class="feat-icon-wrap" style="background:#ED93B1">
+          <i class="ti ti-chart-dots" style="font-size:18px;color:#4B1528" aria-hidden="true"></i>
+        </div>
+        <div class="feat-title" style="color:#4B1528">Data Science &amp; ML</div>
+        <div class="feat-desc" style="color:#993556">Python, Pandas, Scikit-learn, model building, evaluation and deployment pipelines.</div>
+      </div>
+
+      <div class="feat-card" style="background:#FAECE7">
+        <div class="feat-icon-wrap" style="background:#F0997B">
+          <i class="ti ti-users" style="font-size:18px;color:#4A1B0C" aria-hidden="true"></i>
+        </div>
+        <div class="feat-title" style="color:#4A1B0C">Mentorship &amp; Projects</div>
+        <div class="feat-desc" style="color:#993C1D">1-on-1 mentor sessions, peer reviews and portfolio-ready projects you can show employers.</div>
+      </div>
+
+      <div class="feat-card" style="background:#E6F1FB">
+        <div class="feat-icon-wrap" style="background:#85B7EB">
+          <i class="ti ti-certificate" style="font-size:18px;color:#042C53" aria-hidden="true"></i>
+        </div>
+        <div class="feat-title" style="color:#042C53">Certificates &amp; Placement</div>
+        <div class="feat-desc" style="color:#185FA5">Industry-recognised certificates with dedicated placement support and resume reviews.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="how" id="how">
+    <div class="sec-tag" style="background:#F4C0D1;color:#4B1528">
+      <i class="ti ti-map" style="font-size:12px" aria-hidden="true"></i> How it works
+    </div>
+    <h2 class="sec-h" style="color:#72243E">Your learning journey</h2>
+    <p class="sec-sub" style="color:#993556">From zero to job-ready in 4 simple steps — guided all the way.</p>
+
+    <div class="steps-row">
+      <div class="step-item">
+        <div class="step-circle" style="background:#D4537E;color:#FBEAF0">1</div>
+        <div class="step-title" style="color:#4B1528">Enroll free</div>
+        <div class="step-desc"  style="color:#993556">Pick a course and sign up in under 2 minutes — no credit card needed</div>
+      </div>
+      <div class="step-item">
+        <div class="step-circle" style="background:#EF9F27;color:#412402">2</div>
+        <div class="step-title" style="color:#633806">Learn by doing</div>
+        <div class="step-desc"  style="color:#854F0B">Video lessons, live sessions, quizzes and hands-on mini-projects</div>
+      </div>
+      <div class="step-item">
+        <div class="step-circle" style="background:#5DCAA5;color:#04342C">3</div>
+        <div class="step-title" style="color:#04342C">Build portfolio</div>
+        <div class="step-desc"  style="color:#0F6E56">Complete capstone projects guided by expert mentors</div>
+      </div>
+      <div class="step-item">
+        <div class="step-circle" style="background:#7F77DD;color:#EEEDFE">4</div>
+        <div class="step-title" style="color:#26215C">Get hired</div>
+        <div class="step-desc"  style="color:#534AB7">Resume support, mock interviews and placement referrals</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials" id="reviews">
+    <div class="sec-tag" style="background:#CECBF6;color:#26215C">
+      <i class="ti ti-quote" style="font-size:12px" aria-hidden="true"></i> Reviews
+    </div>
+    <h2 class="sec-h" style="color:#26215C">Loved by our learners</h2>
+    <p class="sec-sub" style="color:#534AB7">Real stories from students who built their future with SyntecxHub.</p>
+
+    <div class="testi-grid">
+      <div class="testi-card" style="background:#CECBF6">
+        <div class="testi-stars" style="color:#BA7517">★★★★★</div>
+        <div class="testi-text" style="color:#3C3489">"I went from a CS student to an AI developer in 4 months. The mentorship and real projects made all the difference."</div>
+        <div class="testi-person">
+          <div class="tav" style="background:#534AB7;color:#EEEDFE">PK</div>
+          <div>
+            <div class="testi-name" style="color:#26215C">Preethi K.</div>
+            <div class="testi-role" style="color:#534AB7">AI Developer, Chennai</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card" style="background:#9FE1CB">
+        <div class="testi-stars" style="color:#BA7517">★★★★★</div>
+        <div class="testi-text" style="color:#085041">"The UI/UX course was exactly what I needed. I built 3 portfolio projects and landed a Figma role within weeks."</div>
+        <div class="testi-person">
+          <div class="tav" style="background:#1D9E75;color:#E1F5EE">RM</div>
+          <div>
+            <div class="testi-name" style="color:#04342C">Rohit M.</div>
+            <div class="testi-role" style="color:#0F6E56">UI Designer, Bangalore</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card" style="background:#FAC775">
+        <div class="testi-stars" style="color:#633806">★★★★★</div>
+        <div class="testi-text" style="color:#633806">"SyntecxHub's ML course is structured brilliantly. Concepts were clear, and the capstone project was genuinely challenging."</div>
+        <div class="testi-person">
+          <div class="tav" style="background:#854F0B;color:#FAEEDA">SL</div>
+          <div>
+            <div class="testi-name" style="color:#412402">Sneha L.</div>
+            <div class="testi-role" style="color:#854F0B">Data Scientist, Hyderabad</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRICING ========== -->
+  <section class="pricing" id="pricing">
+    <div class="sec-tag" style="background:#F5C4B3;color:#4A1B0C">
+      <i class="ti ti-tag" style="font-size:12px" aria-hidden="true"></i> Plans
+    </div>
+    <h2 class="sec-h" style="color:#4A1B0C">Invest in your future</h2>
+    <p class="sec-sub" style="color:#993C1D">Flexible plans for every stage of your learning journey. Start free today.</p>
+
+    <div class="price-grid">
+      <!-- Free -->
+      <div class="price-card" style="background:#E1F5EE;border:1.5px solid #5DCAA5">
+        <div class="price-plan"   style="color:#04342C">Free</div>
+        <div class="price-amount" style="color:#085041">₹0 <span style="color:#1D9E75">forever</span></div>
+        <div class="price-desc"   style="color:#0F6E56">Try any course for free. No credit card needed.</div>
+        <div class="price-div"    style="background:#5DCAA5"></div>
+        <div class="pf" style="color:#085041"><i class="ti ti-check" style="color:#1D9E75" aria-hidden="true"></i> 3 free course modules</div>
+        <div class="pf" style="color:#085041"><i class="ti ti-check" style="color:#1D9E75" aria-hidden="true"></i> Community access</div>
+        <div class="pf" style="color:#085041"><i class="ti ti-check" style="color:#1D9E75" aria-hidden="true"></i> 1 mini-project</div>
+        <div class="price-btn">
+          <button class="btn-plan" style="background:#5DCAA5;color:#04342C" onclick="openModal()">Start for free</button>
+        </div>
+      </div>
+
+      <!-- Pro -->
+      <div class="price-card" style="background:#26215C;border:2px solid #7F77DD">
+        <div class="price-badge"  style="background:#7F77DD;color:#EEEDFE">Most popular</div>
+        <div class="price-plan"   style="color:#CECBF6">Pro Learner</div>
+        <div class="price-amount" style="color:#EEEDFE">₹1,999 <span style="color:#7F77DD">/ month</span></div>
+        <div class="price-desc"   style="color:#7F77DD">Full access to all courses with mentorship and placement support.</div>
+        <div class="price-div"    style="background:#534AB7"></div>
+        <div class="pf" style="color:#CECBF6"><i class="ti ti-check" style="color:#5DCAA5" aria-hidden="true"></i> All courses unlocked</div>
+        <div class="pf" style="color:#CECBF6"><i class="ti ti-check" style="color:#5DCAA5" aria-hidden="true"></i> Live mentor sessions</div>
+        <div class="pf" style="color:#CECBF6"><i class="ti ti-check" style="color:#5DCAA5" aria-hidden="true"></i> Portfolio projects</div>
+        <div class="pf" style="color:#CECBF6"><i class="ti ti-check" style="color:#5DCAA5" aria-hidden="true"></i> Certificate on completion</div>
+        <div class="pf" style="color:#CECBF6"><i class="ti ti-check" style="color:#5DCAA5" aria-hidden="true"></i> Placement assistance</div>
+        <div class="price-btn">
+          <button class="btn-plan" style="background:#EF9F27;color:#412402" onclick="openModal()">Start Pro trial</button>
+        </div>
+      </div>
+
+      <!-- Bootcamp -->
+      <div class="price-card" style="background:#FAEEDA;border:1.5px solid #EF9F27">
+        <div class="price-plan"   style="color:#412402">Bootcamp</div>
+        <div class="price-amount" style="color:#633806">₹14,999 <span style="color:#BA7517">one-time</span></div>
+        <div class="price-desc"   style="color:#854F0B">Intensive 3-month cohort with guaranteed placement support.</div>
+        <div class="price-div"    style="background:#EF9F27"></div>
+        <div class="pf" style="color:#633806"><i class="ti ti-check" style="color:#BA7517" aria-hidden="true"></i> Everything in Pro</div>
+        <div class="pf" style="color:#633806"><i class="ti ti-check" style="color:#BA7517" aria-hidden="true"></i> Daily live classes</div>
+        <div class="pf" style="color:#633806"><i class="ti ti-check" style="color:#BA7517" aria-hidden="true"></i> 1-on-1 career coach</div>
+        <div class="pf" style="color:#633806"><i class="ti ti-check" style="color:#BA7517" aria-hidden="true"></i> Job guarantee*</div>
+        <div class="price-btn">
+          <button class="btn-plan" style="background:#EF9F27;color:#412402">Apply now ↗</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA BAND ========== -->
+  <section class="cta-band">
+    <h2>Your AI career starts today</h2>
+    <p>Join 12,000+ learners already building their future with SyntecxHub AI Academy. Free to start, no credit card needed.</p>
+    <div class="cta-row">
+      <input type="email" placeholder="Enter your email" id="ctaEmail" aria-label="Email address" />
+      <button class="btn-cta" onclick="handleCta()">
+        <i class="ti ti-rocket" style="font-size:13px" aria-hidden="true"></i> Enroll free
+      </button>
+    </div>
+    <div class="cta-note">Free plan · No credit card · Start learning today</div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer>
+    <div class="footer">
+      <div>
+        <div class="footer-logo">
+          <div style="width:28px;height:28px;border-radius:6px;background:#534AB7;display:flex;align-items:center;justify-content:center">
+            <i class="ti ti-brain" style="font-size:14px;color:#CECBF6" aria-hidden="true"></i>
+          </div>
+          SyntecxHub
+        </div>
+        <div class="footer-tag">Master AI, Design &amp; Development. Build your future with real-world skills.</div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Courses</div>
+        <a href="#" class="footer-link">Generative AI</a>
+        <a href="#" class="footer-link">UI/UX Design</a>
+        <a href="#" class="footer-link">Full Stack Dev</a>
+        <a href="#" class="footer-link">Data Science</a>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Company</div>
+        <a href="#" class="footer-link">About us</a>
+        <a href="#" class="footer-link">Blog</a>
+        <a href="#" class="footer-link">Careers</a>
+        <a href="#" class="footer-link">Contact</a>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Support</div>
+        <a href="#" class="footer-link">Help centre</a>
+        <a href="#" class="footer-link">Community</a>
+        <a href="#" class="footer-link">Placement</a>
+        <a href="#" class="footer-link">Certificates</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 SyntecxHub AI Academy. All rights reserved.</span>
+      <div class="footer-bottom-links">
+        <span>Privacy</span>
+        <span>Terms</span>
+        <span>Cookies</span>
+      </div>
+    </div>
+  </footer>
+
+</div><!-- /.lp -->
+
+<!-- ========== MODAL ========== -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal">
+    <button class="modal-close" onclick="closeModal()" aria-label="Close modal">
+      <i class="ti ti-x" style="font-size:16px" aria-hidden="true"></i>
+    </button>
+
+    <div id="modalForm">
+      <h3 id="modalTitle">Start learning for free</h3>
+      <p>No credit card required. Join 12,000+ learners today.</p>
+
+      <div class="mf">
+        <label for="mName">Full name</label>
+        <input type="text" id="mName" placeholder="Your name" />
+      </div>
+      <div class="mf">
+        <label for="mEmail">Email</label>
+        <input type="email" id="mEmail" placeholder="you@email.com" />
+      </div>
+      <div class="mf">
+        <label for="mCourse">I want to learn</label>
+        <select id="mCourse">
+          <option>Generative AI &amp; LLMs</option>
+          <option>UI/UX Design</option>
+          <option>Full Stack Development</option>
+          <option>Data Science &amp; ML</option>
+          <option>All courses</option>
+        </select>
+      </div>
+
+      <button class="modal-submit" onclick="submitModal()">
+        Create free account <i class="ti ti-arrow-right" style="font-size:13px" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="modal-success" id="modalSuccess">
+      <i class="ti ti-circle-check" aria-hidden="true"></i>
+      <p>Welcome to SyntecxHub!</p>
+      <span>Check your inbox for your access link. Happy learning!</span>
+    </div>
+  </div>
+</div>
+
+<!-- ========== SCRIPTS ========== -->
+<script>
+  function openModal() {
+    document.getElementById('modalOverlay').classList.add('open');
+    document.getElementById('modalForm').style.display = 'block';
+    document.getElementById('modalSuccess').style.display = 'none';
+  }
+
+  function closeModal() {
+    document.getElementById('modalOverlay').classList.remove('open');
+  }
+
+  function submitModal() {
+    const email = document.getElementById('mEmail');
+    if (!email.value || !email.value.includes('@')) {
+      email.style.borderColor = '#E24B4A';
+      email.focus();
+      return;
+    }
+    document.getElementById('modalForm').style.display = 'none';
+    document.getElementById('modalSuccess').style.display = 'block';
+    setTimeout(closeModal, 2500);
+  }
+
+  function handleCta() {
+    const input = document.getElementById('ctaEmail');
+    if (input.value && input.value.includes('@')) {
+      openModal();
+      document.getElementById('mEmail').value = input.value;
+    } else {
+      input.style.borderColor = '#E24B4A';
+      input.focus();
+      setTimeout(() => { input.style.borderColor = ''; }, 1200);
+    }
+  }
+
+  // Close modal when clicking outside
+  document.getElementById('modalOverlay').addEventListener('click', function (e) {
+    if (e.target === this) closeModal();
+  });
+
+  // Close modal on Escape key
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeModal();
+  });
+</script>
+
+</body>
+</html>
